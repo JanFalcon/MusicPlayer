@@ -18,7 +18,7 @@ public class Window {
 	
 	public void AddJPanel() {
 		panel = new JPanel();
-		panel.setBackground(Color.black);
+		panel.setBackground(Color.DARK_GRAY);
 		frame.add(panel);
 		
 	}
@@ -27,7 +27,7 @@ public class Window {
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.pack();
-		frame.setSize(700, 700);
+		frame.setSize(1000, 650);
 		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 	}
