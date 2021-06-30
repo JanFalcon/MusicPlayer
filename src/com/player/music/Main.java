@@ -1,0 +1,11 @@
+package com.player.music;
+
+public class Main {
+	
+	
+	
+	public static void main(String[] args) {
+		System.out.println("MEOW MEOW");
+	}
+	
+}
